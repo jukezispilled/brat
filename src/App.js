@@ -96,17 +96,11 @@ function App() {
   };
 
   return (
-    <div className="h-screen w-screen flex justify-center items-center overflow-hidden"
+    <div className="h-screen w-screen flex justify-center items-center overflow-clip relative"
       style={{ 
         backgroundImage: "url('/bg.jpg')", 
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
-        overflow: 'hidden',
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0
       }}
     >
       <div className='absolute top-5 left-5 right-5 z-20'>
@@ -148,7 +142,7 @@ function App() {
       </div>
 
       <div className='absolute top-0 w-[130%] bg-black text-lime-400 py-2 text-3xl md:text-5xl rotate-45 translate-x-[7.5%] overflow-clip'>
-        <Marquee speed={200} className='overflow-clip'>
+        <Marquee speed={200} className=''>
           brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat brat&nbsp;
         </Marquee>
       </div>
