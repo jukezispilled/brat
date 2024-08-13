@@ -78,7 +78,7 @@ function App() {
   const audioRef = useRef(new Audio('nasty.mp3'));
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('soon...');
+    navigator.clipboard.writeText('6TmwYNv2H2rg5hRLEdTHNz5CMJVrTRxE5iw3tyRvpump');
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -134,7 +134,7 @@ function App() {
               CA
             </button>
             <div className='text-sm md:text-base overflow-x-auto font-custom'>
-              soon...
+              6TmwYNv2H2rg5hRLEdTHNz5CMJVrTRxE5iw3tyRvpump
             </div>
           </div>
       </div>
@@ -175,7 +175,7 @@ function App() {
             </div>
             <iframe
               className="h-[calc(70vh)] w-[calc(85vh)]"
-              src="https://pump.fun/"
+              src="https://pump.fun/6TmwYNv2H2rg5hRLEdTHNz5CMJVrTRxE5iw3tyRvpump"
               style={{ border: 'none' }}
               allowFullScreen
             ></iframe>
