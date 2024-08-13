@@ -129,7 +129,7 @@ function App() {
           <div className='flex flex-col sm:flex-row justify-center bg-slate-100 rounded-xl md:rounded-full z-10 items-center gap-1 md:gap-3 px-5 py-3 max-w-full border-2'>
             <button
               onClick={handleCopy}
-              className="text-sm bg-lime-500 text-white py-2 px-4 rounded-full md:hover:bg-green-600 border-2 transition-colors duration-300 z-10 whitespace-nowrap"
+              className="text-sm bg-lime-500 text-white py-2 px-4 rounded-full md:hover:bg-lime-600 border-2 transition-colors duration-300 z-10 whitespace-nowrap"
             >
               CA
             </button>
